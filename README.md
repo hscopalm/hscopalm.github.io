@@ -1,13 +1,8 @@
-# 🔥 Responsive Portfolio Website Ansel
-## [Watch it on youtube](https://youtu.be/oy8dSsK57Ps)
-### 🔥 Responsive Portfolio Website
+# Fork this project for yourself!
+Just change the name, image, and links.
 
-- Responsive Portfolio Website Using HTML CSS & JavaScript
-- Smooth scrolling in each section.
-- Includes a dark and light mode.
-- Developed first with the Mobile First methodology, then for desktop.
-- Compatible with all mobile devices and with a beautiful and pleasant user interface.
+There are two files you need to worry about when you want to modify this page for your own use.
+- `stylesheets/style.css`
+- `index.html` 
 
-💙 Join the channel to see more videos like this. [Bedimcode](https://www.youtube.com/c/Bedimcode)
-
-![preview img](/preview.png)
+If you have a dns, you can host this static site with GitHub pages in the settings.
