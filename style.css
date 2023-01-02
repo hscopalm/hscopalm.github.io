@@ -16,7 +16,7 @@ html, body {
   }
   
   .wrapper {
-    background-color: lightpink;
+    /* background-color: lightpink; */
     
     max-width: 65%;
     display: flex;
