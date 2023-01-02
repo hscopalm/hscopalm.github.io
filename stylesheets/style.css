@@ -54,6 +54,14 @@ body {
   text-align: center;
   font-family: 'Poppins', sans-serif;
   /* background: #cd486b; */
+
+  background-image: url("../resources/background_blur.jpg");
+  background-color: #b7b7b7;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 h1 {
@@ -70,21 +78,6 @@ ion-icon {
   font-size: 25px;
 }
 
-.bg-image {
-  background-image: url("../resources/background.jpg");
-  background-color: #cd486b;
-
-  /* Add the blur effect */
-  filter: blur(8px);
-  -webkit-filter: blur(8px);
-
-  height: 100%;
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
 .gap {
   padding: 1em 0 0;
 }
@@ -97,6 +90,15 @@ ion-icon {
   padding: 20px;
   text-align: center;
   overflow-x: hidden;
+  margin-top: 10vh; 
+  margin-left: 20vw; 
+  margin-right: 20vw;
+
+  border-style: solid;
+  border-color: #333;
+  border-width: 5px;
+
+  background-color: rgba(238, 238, 238, 0.85);
 }
 
 .inner {
@@ -105,9 +107,9 @@ ion-icon {
 }
 
 .avatar {
-  -moz-box-shadow: 0 0 0px 3px #fff, 0 0 0 4px #ccc, 0 4px 6px #333;
-  -webkit-box-shadow: 0 0 0px 3px #fff, 0 0 0 4px #ccc, 0 4px 6px #333;
-  box-shadow: 0 0 0px 3px #fff, 0 0 0 4px #ccc, 0 4px 6px #333;
+  -moz-box-shadow: 0 0 0px 1px rgb(116, 116, 116), 0 0 0 4px rgb(116, 116, 116), 0 4px 6px #333;
+  -webkit-box-shadow: 0 0 0px 1px rgb(116, 116, 116), 0 0 0 4px rgb(116, 116, 116), 0 4px 6px #333;
+  box-shadow: 0 0 0px 1px rgb(116, 116, 116), 0 0 0 4px rgb(116, 116, 116), 0 4px 6px #333;
   -moz-border-radius: 100px;
   -webkit-border-radius: 100px;
   border-radius: 100px;
