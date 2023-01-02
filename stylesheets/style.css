@@ -53,7 +53,7 @@ body {
   color: #333;
   text-align: center;
   font-family: 'Poppins', sans-serif;
-  background: #f7f7f7;
+  /* background: #cd486b; */
 }
 
 h1 {
@@ -66,13 +66,23 @@ a {
   text-decoration: none;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-}
-
 ion-icon {
   font-size: 25px;
+}
+
+.bg-image {
+  background-image: url("../resources/background.jpg");
+  background-color: #cd486b;
+
+  /* Add the blur effect */
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .gap {
@@ -252,41 +262,38 @@ ion-icon {
 
 #spin:after {
   content: "";
-  animation: spin 2.5s linear infinite;
+  animation: spin 5.0s linear infinite;
 }
 
 @keyframes spin {
   0% {
-    content: "Go";
-  }
-  10% {
-    content: "Terraform";
-  }
-  20% {
-    content: "Java";
-  }
-  30% {
     content: "Python";
   }
+  10% {
+    content: "SQL";
+  }
+  20% {
+    content: "Looker";
+  }
+  30% {
+    content: "LookML";
+  }
   40% {
-    content: "Node";
+    content: "Tableau";
   }
   50% {
-    content: "JavaScript";
+    content: "HTML";
   }
   60% {
-    content: "PHP";
+    content: "CSS";
   }
   70% {
-    content: "VB.Net";
+    content: "JavaScript";
   }
-  80% {
-    content: "React";
-  }
-  90% {
-    content: "C";
+  80%, 90% {
+    content: "And more...";
   }
   100% {
-    content: "Bash";
+    content: "Python";
   }
 }
