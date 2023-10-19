@@ -1,8 +1,8 @@
-# Fork this project for yourself!
-Just change the name, image, and links.
+# Welcome to my Webpage Repo!
+This is a simple portfolio and about me page, regarding yours truly.
 
-There are two files you need to worry about when you want to modify this page for your own use.
-- `stylesheets/style.css`
-- `index.html` 
+[Visit the website here](https://hscopalm.github.io/)
 
-If you have a dns, you can host this static site with GitHub pages in the settings.
+The page is hosted via github pages, and has all of the resources contained within this repo. Browse to see my resume, transcript, and more. 
+
+Additionally, check out my other projects on my github to get a sense of my personal efforts!
